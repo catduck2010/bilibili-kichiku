@@ -1,0 +1,15 @@
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\KichikuBili.exe.config
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\KichikuBili.exe
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\KichikuBili.pdb
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\Newtonsoft.Json.dll
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\Newtonsoft.Json.pdb
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\bin\Release\Newtonsoft.Json.xml
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.AboutBox.resources
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.MainForm.resources
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.NameConflict.resources
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.Properties.Resources.resources
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.csproj.GenerateResource.cache
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.csproj.CoreCompileInputs.cache
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.csproj.CopyComplete
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.exe
+d:\catduck\documents\visual studio 2017\Projects\KichikuBili\KichikuBili\obj\Release\KichikuBili.pdb
