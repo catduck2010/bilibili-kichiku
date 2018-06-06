@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KichikuBili.exe" version="6.4.0.0" publicKeyToken="461dd60a15d5df73" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CN_bilibili B.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KichikuBili" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KichikuBili.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KichikuBili.exe" size="103912">
+      <assemblyIdentity name="KichikuBili" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ytikaHIKSLh8sEU5dG7/2qqVy49old9Cglhmf3+vJ4E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\KichikuBili.resources.dll" size="8192">
+      <assemblyIdentity name="KichikuBili.resources" version="1.0.0.0" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d51sTFalud9Ok0wMQfY4/7MaoteHIp2Q4SN4TqqHJK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\KichikuBili.resources.dll" size="4096">
+      <assemblyIdentity name="KichikuBili.resources" version="1.0.0.0" language="zh-Hans" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fej8szYVKCB7x8roBbFG5LMkB5oFjpYM87yp8fJ6E74=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="662528">
+      <assemblyIdentity name="Newtonsoft.Json" version="11.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Yw3T/yq5ONtdA2Q+/f+cNCrtzKM2a86CntwgD6ZS6Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CN_bilibili B.ico" size="12986">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w/U/EXOCm55rCmf42qV3x912ePDnOpezHmkN/xSHpu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KichikuBili.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，Windows 将
+           自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-09SPBF2\Lihang" issuerKeyHash="3f680cc95a1110e5cf5ab992e620a10f549a2518" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B77mg9jtd5RBusQKGm17z5z1vQmMh5qxpAmVz0xh2ak=</DigestValue></Reference></SignedInfo><SignatureValue>HNZIUbStLH15SXqpp3qMrq4Bcn1ELKIPaj3NWlDWX4AyMz9SBBF5xHEekrX3b00j0doJ/dyRl9vPhtW9d4w9CoVem7vvGcequydj5qdRkw+BUR/XJ8CBagS6RpFEHmBXSPtWCaEv/KeAmOJ9WwABw9uPEryhIcJL2CRuiJpFmBg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qb4ieCF5gmwfIysNQwNSAcWSUbry8Hg154ghUfUjfI9hqxNuq5oat7P3DiA2XnmffuwmUYnnuSV7Bl4h9vhJaZFbgrnx/zmXPsQKp5NCbaw+0u43lM04aZQ+ukXiwqNTdZWu2MENmp4r8EsfkoYVNbXW+r3Mxt2vAm8RbHbUDn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a9d9614ccf9509a4b19a878c09bdf59ccf7b6d1a0ac4ba419477edd883e6be07" Description="" Url=""><as:assemblyIdentity name="KichikuBili.exe" version="6.4.0.0" publicKeyToken="461dd60a15d5df73" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-09SPBF2\Lihang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RCrnPcqgcUrF67ORucUsbtlB4G/z27usc0yXCWLkK/I=</DigestValue></Reference></SignedInfo><SignatureValue>BdjkAp7+ivYPw2FISvRLF2Ch5UG6ZLi2ALLVMNMR3pivf3Ywk+71QjUYC8FFqWJnwDwdwdB+JRs9ZNQQnZQcGPPh8s5tCvMXnlVq/fdjBLAEH75BKt+kpykUbJXpjCQXMKadWS0Rm5eTnuvZa70cqKlFTWRJozzqc4n2NdairnY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qb4ieCF5gmwfIysNQwNSAcWSUbry8Hg154ghUfUjfI9hqxNuq5oat7P3DiA2XnmffuwmUYnnuSV7Bl4h9vhJaZFbgrnx/zmXPsQKp5NCbaw+0u43lM04aZQ+ukXiwqNTdZWu2MENmp4r8EsfkoYVNbXW+r3Mxt2vAm8RbHbUDn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQdkOi8UWiQIZJ4r6R4xuMCDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADAAOQBTAFAAQgBGADIAXABMAGkAaABhAG4AZzAeFw0xODA2MDYxMDM5MTlaFw0xOTA2MDYxNjM5MTlaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMAA5AFMAUABCAEYAMgBcAEwAaQBoAGEAbgBnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpviJ4IXmCbB8jKw1DA1IBxZJRuvLweDXniCFR9SN8j2GrE26rmhq3s/cOIDZeeZ9+7CZRiee5JXsGXiH2+ElpkVuCufH/OZc+xAqnk0JtrD7S7jeUzThplD66ReLCo1N1la7YwQ2anivwSx+ShhU1tdb6vczG3a8CbxFsdtQOfQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJsofFY0qkMTUW7KG+PRMg+V9a+iHsZYZqRKidLb2KGtVYF1dE4CULpi90HHte4B6NrvqrXYd6T8BMoRtef2zJ3fc3t+WoQthraNRfIEXcJll/IsbynANjxWce3fhMP4x69qi5vdaoZrvw8maCd4DF/33YyWov67sZw6lPEv7qnX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
