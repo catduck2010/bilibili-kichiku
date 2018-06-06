@@ -37,3 +37,9 @@ D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\ob
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.csproj.CopyComplete
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.exe
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.pdb
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\KichikuBili.exe.manifest
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\KichikuBili.application
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.csprojAssemblyReference.cache
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.TrustInfo.xml
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.exe.manifest
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.application
