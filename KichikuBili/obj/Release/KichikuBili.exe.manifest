@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KichikuBili.exe" size="103912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KichikuBili.exe" size="99816">
       <assemblyIdentity name="KichikuBili" version="6.4.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XUCs5glx8BYMWLWA6g9QzmNx1BitYmbtu4VqiXCqMCE=</dsig:DigestValue>
+        <dsig:DigestValue>o41q8KhCpvit4mrE1DEgJgdPBmMTtHH9l2nHqOhpZ+w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,19 +61,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bsT1kpPJzijrd6/v1B632igTMY/WHRnE2vxjxtppKbk=</dsig:DigestValue>
+        <dsig:DigestValue>ThM3me02j06ml6oVu1+rXNPl/Cec2SibcBl8ApuIPb8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\KichikuBili.resources.dll" size="4096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\KichikuBili.resources.dll" size="5632">
       <assemblyIdentity name="KichikuBili.resources" version="6.4.0.0" language="zh-Hans" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>c4/inVJk7FUkytfnqQVQmAxQrUnBADwLj0TLALhS4ps=</dsig:DigestValue>
+        <dsig:DigestValue>tMP0cN9DmcCO61rLINE93CLJu6pTyfeaku8DKqNeZFc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hant\KichikuBili.resources.dll" size="19456">
+      <assemblyIdentity name="KichikuBili.resources" version="6.4.0.0" language="zh-Hant" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NQK5M1lMjpgCaaoLNcyL1Y2OckVQ93A3HiCUqycsd9E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

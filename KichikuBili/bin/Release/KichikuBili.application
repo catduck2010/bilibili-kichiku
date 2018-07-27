@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="KichikuBili.exe.manifest" size="7029">
+    <dependentAssembly dependencyType="install" codebase="KichikuBili.exe.manifest" size="7696">
       <assemblyIdentity name="KichikuBili.exe" version="6.4.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Qaka6YWIykz8XVtaOsYI69siaVRTenfsq6uYl2pYPcs=</dsig:DigestValue>
+        <dsig:DigestValue>NfjxCzygG2pc86IBKd8kqxq9+ZqqZfek+Qp15PJCtLc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
