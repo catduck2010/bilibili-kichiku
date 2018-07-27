@@ -207,11 +207,13 @@ namespace KichikuBili
 
         private void ExecuteButton_Click(object sender, EventArgs e)
         {
+            ExecuteButton.Enabled = false;
             progressBar1.Value = 0;
             int length = 0;
             if (IputpathBox.Text.Equals("") || OputpathBox.Text.Equals(""))
             {
-                MessageBox.Show(emptypatherror);
+                MessageBox.Show(emptypatherror);//路径错误
+                ExecuteButton.Enabled = true;
                 return;
             }
             else
@@ -219,12 +221,14 @@ namespace KichikuBili
                 if (!Directory.Exists(IputpathBox.Text))
                 {
                     MessageBox.Show(inputpathnotexisterror);
+                    ExecuteButton.Enabled = true;
                     return;
                 }
                 length = Tools.CountFolder(IputpathBox.Text);
                 if (length == 0)
                 {
                     MessageBox.Show(filestructureerror);
+                    ExecuteButton.Enabled = true;
                     return;
                 }
                 if (!Directory.Exists(OputpathBox.Text))
@@ -238,12 +242,14 @@ namespace KichikuBili
                     }
                     else
                     {
+                        ExecuteButton.Enabled = true;
                         return;
                     }
                 }
             }
             OputTextBox.Text = "";
             Browse(IputpathBox.Text, OputpathBox.Text, length);
+            ExecuteButton.Enabled = true;
         }
 
         private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
