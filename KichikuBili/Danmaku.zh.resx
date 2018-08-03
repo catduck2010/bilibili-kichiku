@@ -117,40 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BrowseButton2.Text" xml:space="preserve">
-    <value>瀏覽...</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>輸出路徑:</value>
-  </data>
-  <data name="BrowseButton1.Text" xml:space="preserve">
-    <value>瀏覽...</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>輸入路徑:</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>開始</value>
-  </data>
-  <data name="ExecuteButton.Text" xml:space="preserve">
-    <value>開始執行</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>執行</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>關於(A)</value>
-  </data>
-  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
-    <value>幫助(H)</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIACkMgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAlw
@@ -371,8 +338,5 @@
         CIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIg
         CIKQSf5/GH6nMLcrAh4AAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>哔哩哔哩緩存導出</value>
   </data>
 </root>

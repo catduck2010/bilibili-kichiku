@@ -140,6 +140,9 @@
     <EmbeddedResource Include="Danmaku.zh-Hant.resx">
       <DependentUpon>Danmaku.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Danmaku.zh.resx">
+      <DependentUpon>Danmaku.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NameConflict.en.resx">
       <DependentUpon>NameConflict.cs</DependentUpon>
     </EmbeddedResource>

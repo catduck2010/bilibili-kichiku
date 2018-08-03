@@ -18,8 +18,6 @@ D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bi
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\KichikuBili.pdb
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\en\KichikuBili.resources.dll
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\zh-Hans\KichikuBili.resources.dll
-D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\Newtonsoft.Json.pdb
-D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\Newtonsoft.Json.xml
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.AboutBox.resources
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.Danmaku.resources
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.NameConflict.resources
@@ -46,3 +44,7 @@ D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\ob
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.Resource.zh-Hant.resources
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.Resource.zh-Hans.resources
 D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\zh-Hant\KichikuBili.resources.dll
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\zh\KichikuBili.resources.dll
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\bin\Release\Newtonsoft.Json.dll
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\KichikuBili.Danmaku.zh.resources
+D:\catduck\Documents\Visual Studio 2017\Projects\bilibili-kichiku\KichikuBili\obj\Release\zh\KichikuBili.resources.dll

@@ -56,7 +56,7 @@ namespace KichikuBili
                 {
                     FileInfo file = page[ii] as FileInfo;
                     string timestr = "";
-                    if (file != null && file.Name.Equals("entry.json"))
+                    if (file != null && file.Name.Equals("entry.json"))//有文件存在
                     {
                         string context = "";
                         //json文件转字符串
@@ -75,7 +75,7 @@ namespace KichikuBili
                         {
                             videoname = Tools.AVInfoGetter(context, "title");
                             videoalias = videoname;
-                            videoid = Tools.AVInfoGetter(context, "avid");
+                            videoid = Tools.AVInfoGetter(context, "avid");//
 
                             bool cancel = false;
                             //AV名合法性
